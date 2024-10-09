@@ -1,0 +1,27 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#avatar{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+    background-image: url('../assets/icons_FEtask/avatar.jpg');
+    background-size: contain;
+    
+}
+
+button{
+    border: none;
+    background-color: none;
+    border-radius: 10px;
+    span{
+        margin-left: 1px;
+    }
+    
+}
+
